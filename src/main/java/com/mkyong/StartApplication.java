@@ -13,7 +13,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "Docker + Spring Boot");
-        model.addAttribute("msg", "Welcome to the docker container  build 32 !");
+        model.addAttribute("msg", "Welcome to the docker container  build 33 !");
         return "index";
     }
 
